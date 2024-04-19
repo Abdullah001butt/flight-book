@@ -6,11 +6,11 @@ const Header = () => {
         <div>
             <div>
             </div>
-            <div className='bg-primary flex justify-between'>
+            <div className='bg-primary flex justify-between py-4'>
                 <div className="">
-                    <div className='text-5xl text-white font-semibold pl-28 py-4'>
+                    <Link to={'/'} className='text-5xl text-white font-semibold pl-28 py-4'>
                         AirAraiba
-                    </div>
+                    </Link>
                 </div>
                 <div className='flex gap-6 pr-28 self-center text-xl text-white'>
                     <Link to={'/plan'}>Plan</Link>
@@ -21,7 +21,6 @@ const Header = () => {
                     <div>Air <span></span> Rewards</div>
                 </div>
             </div>
-
         </div>
     )
 }

@@ -3,12 +3,12 @@ import plane_img from '../assets/plane_img.jpg';
 
 const Plan = () => {
     return (
-        <div>
-            <div className='justify-center items-center'>
+        <div className=''>
+            <div className='justify-center items-center '>
                 <img src={plane_img} alt="" className='absolute' />
-                <div className='flex justify-center items-center pt-12'>
+                <div className='flex justify-center items-center pt-12 mb-14'>
                     <div className='relative px-10 py-3'>
-                        <div className='bg-opacity-80 text-4xl text-gray-700 font-semibold px-4 py-4 bg-white w-full h-full'>
+                        <div className='bg-opacity-80 text-4xl text-gray-700 font-semibold px-4 py-4 bg-white w-full'>
                             Cheap Flights with Air Arabia From <span className='text-primary'>USD 112!</span>
                         </div>
                         <div className='bg-gray-200 px-4'>
@@ -35,28 +35,28 @@ const Plan = () => {
                                         </button>
                                     </div>
                                 </div>
-                                <div className='mt-2 flex gap-4'>
-                                    <div className='bg-white'>
+                                <div className='mt-2 flex gap-4 '>
+                                    <div className='bg-white mb-4'>
                                         <h1 className='font-bold text-gray-700 pl-2'>From</h1>
                                         <input type="text" placeholder='Select origin' className='pl-2 outline-none'/>
                                     </div>
-                                    <div className='bg-white '>
+                                    <div className='bg-white mb-4'>
                                         <h1 className='font-bold text-gray-700 pl-2'>To</h1>
                                         <input type="text" placeholder='Select destination' className='pl-2 outline-none'/>
                                     </div>
-                                    <div className='bg-white'>
+                                    <div className='bg-white mb-4'>
                                         <button>
                                             <h1 className='font-bold text-gray-700'>Departure</h1>
                                             <input type="date" />
                                         </button>
                                     </div>
-                                    <div className='bg-white'>
+                                    <div className='bg-white mb-4'>
                                         <button>
                                             <h1 className='font-bold text-gray-700'>Return</h1>
                                             <input type="date" />
                                         </button>
                                     </div>
-                                    <div className='bg-primary text-white px-6 flex items-center'>
+                                    <div className='bg-primary text-white px-8 flex items-center mb-2'>
                                         <button>Submit</button>
                                     </div>
                                 </div>
